@@ -495,9 +495,11 @@ steal("can/util", function( can ) {
 			can.view.cached[id] = new can.Deferred().resolve(function( data, helpers ) {
 				return renderer.call(data, data, helpers);
 			});
-			return function(){
+			var fn = function(){
 				return $view.frag(renderer.apply(this,arguments))
 			};
+			fn.renderer = renderer;
+			return fn;
 		}
 
 	});
