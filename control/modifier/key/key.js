@@ -1,4 +1,5 @@
-steal('can/control/modifier', function(Control){
+define(["can/control/modifier/modifier"],
+function(Control){
 
 /*
  * jwerty - Awesome handling of keyboard events

@@ -1,4 +1,5 @@
-steal('can/util', 'can/control', 'can/view',function(can) {
+define(["can/util/util", "can/control/control", "can/view/view"],
+function(can) {
 	var URI = steal.URI || steal.File;
 	
 	can.Control.getFolder = function() {

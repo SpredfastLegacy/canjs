@@ -1,4 +1,5 @@
-steal('can/util', function(can) {
+define(["can/util/util"],
+function(can) {
 	
 	// returns the
     // - observes and attr methods are called by func

@@ -1,4 +1,5 @@
-steal('./can.js',function(can){
+define(["can/util/can"],
+function(can){
 
 	// event.js
 	// ---------

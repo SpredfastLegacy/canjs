@@ -1,4 +1,5 @@
-steal('can/route', function() {
+define(["can/route/route"],
+function() {
     "use strict";
 
     if(window.history && history.pushState) {

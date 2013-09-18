@@ -1,4 +1,5 @@
-steal('can/util','can/construct', function( can ) {
+define(["can/util/util","can/construct/construct"],
+function( can ) {
 	// ## control.js
 	// `can.Control`  
 	// _Controller_

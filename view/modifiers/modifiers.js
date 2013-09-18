@@ -1,4 +1,5 @@
-steal('jquery', 'can/view', function($, can) {
+define(["jquery/jquery", "can/view/view"],
+function($, can) {
 	//---- ADD jQUERY HELPERS -----
 	//converts jquery functions to use views	
 	var convert, modify, isTemplate, isHTML, isDOM, getCallback,

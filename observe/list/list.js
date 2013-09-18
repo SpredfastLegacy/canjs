@@ -1,4 +1,5 @@
-steal('can/util', 'can/observe', 'can/observe/compute', function(can) {
+define(["can/util/util", "can/observe/observe", "can/observe/compute/compute"],
+function(can) {
 	can.extend(can.Observe.List.prototype, {
 		filter : function(callback) {
 			// The filtered list

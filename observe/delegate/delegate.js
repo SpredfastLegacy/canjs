@@ -1,4 +1,5 @@
-steal('can/util', 'can/observe', function(can) {
+define(["can/util/util", "can/observe/observe"],
+function(can) {
 	
 	
 	

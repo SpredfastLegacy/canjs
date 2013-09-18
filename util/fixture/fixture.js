@@ -1,4 +1,5 @@
-steal('can/util','can/util/string','can/util/object', function (can) {
+define(["can/util/util","can/util/string/string","can/util/object/object"],
+function (can) {
 
 	var updateSettings = function (settings, originalOptions) {
 			if (!can.fixture.on) {

@@ -1,4 +1,5 @@
-steal('can/util', 'can/observe', 'can/model', function(can, Observe) {
+define(["can/util/util", "can/observe/observe", "can/model/model"],
+function(can, Observe) {
 
 can.each([ can.Observe, can.Model ], function(clss){
 	// in some cases model might not be defined quite yet.

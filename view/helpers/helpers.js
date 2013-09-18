@@ -1,4 +1,5 @@
-steal('can/view/ejs').then(function($){
+define(["can/view/ejs/ejs"],
+function($){
 
 /**
  * @add jQuery.EJS.Helpers.prototype

@@ -1,5 +1,5 @@
-//allows you to backup and restore a observe instance
-steal('can/util', 'can/observe', 'can/util/object', function (can) {
+define(["can/util/util", "can/observe/observe", "can/util/object/object"],
+function (can) {
 	var flatProps = function (a) {
 		var obj = {};
 		for (var prop in a) {

@@ -1,4 +1,5 @@
-steal('can/model','can/util/object', function(){
+define(["can/model/model","can/util/object/object"],
+function(){
 	
 // Base model to handle reading / writing to local storage
 can.Model("can.Model.Cached", {

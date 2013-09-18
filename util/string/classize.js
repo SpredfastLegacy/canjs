@@ -1,4 +1,5 @@
-steal('./string', function(){
+define(["can/util/string/string"],
+function(){
 	
 /**
  * Like [can.camelize|camelize], but the first part is also capitalized

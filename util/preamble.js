@@ -1,4 +1,5 @@
-steal(function() {
+define([],
+function() {
 // # CanJS v#{VERSION}
 // (c) 2012 Bitovi  
 // MIT license  

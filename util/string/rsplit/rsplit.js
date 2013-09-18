@@ -1,4 +1,5 @@
-steal('can/util/string',function() {
+define(["can/util/string/string"],
+function() {
 	/**
 	 * @add jQuery.String
 	 */

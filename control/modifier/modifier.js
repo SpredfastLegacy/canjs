@@ -1,4 +1,5 @@
-steal("can/control", "can/util/function", function() {
+define(["can/control/control", "can/util/function/function"],
+function() {
 
 	// Hang on to original action
 	var originalSetup = can.Control.setup,

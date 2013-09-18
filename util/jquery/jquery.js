@@ -1,4 +1,5 @@
-steal('jquery', 'can/util/can.js', 'jquery', "../preamble.js", 'can/util/array/each.js', function($, can) {
+define(["jquery/jquery", "can/util/can", "jquery/jquery", "../preamble", "can/util/array/each"],
+function($, can) {
 	// jquery.js
 	// ---------
 	// _jQuery node list._

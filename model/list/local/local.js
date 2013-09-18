@@ -1,4 +1,5 @@
-steal('jquery/dom/cookie','jquery/model/list').then(function($){
+define(["jquery/dom/cookie/cookie","jquery/model/list/list"],
+function($){
 /**
  * @class jQuery.Model.List.Local
  * @plugin jquery/model/list/local

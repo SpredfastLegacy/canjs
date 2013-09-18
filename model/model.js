@@ -1,5 +1,5 @@
-// this file should not be stolen directly
-steal('can/util','can/observe', function( can ) {
+define(["can/util/util","can/observe/observe"],
+function( can ) {
 	
 	// ## model.js  
 	// `can.Model`  
@@ -726,7 +726,7 @@ steal('can/util','can/observe', function( can ) {
 
 			//!steal-remove-start
 			if ( ! raw.length ) {
-				steal.dev.warn("model.js models has no data.")
+				window.console && console.warn && console.warn("model.js models has no data.")
 			}
 			//!steal-remove-end
 
@@ -1095,7 +1095,7 @@ steal('can/util','can/observe', function( can ) {
 			can.trigger(this,funcName);
 			can.trigger(this,"change",funcName)
 			//!steal-remove-start
-			steal.dev.log("Model.js - "+ constructor.shortName+" "+ funcName);
+			window.console && console.log && console.log("Model.js - "+ constructor.shortName+" "+ funcName);
 			//!steal-remove-end
 
 			// Call event on the instance's Class

@@ -1,4 +1,5 @@
-steal('can/util', 'can/construct', function(can, Construct){
+define(["can/util/util", "can/construct/construct"],
+function(can, Construct){
 
 // tests if we can get super in .toString()
 	var isFunction = can.isFunction,

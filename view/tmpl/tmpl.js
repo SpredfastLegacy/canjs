@@ -1,29 +1,5 @@
-// jQuery Templates Plugin
-// http://github.com/jquery/jquery-tmpl
-// 
-// Copyright Software Freedom Conservancy, Inc.
-// Dual licensed under the MIT or GPL Version 2 licenses.
-// http://jquery.org/license
-
-/**
- * @class jQuery.tmpl
- * @parent jQuery.View
- * @plugin jquery/view/tmpl
- * Provides basic templating with magic tags that look like:
- * @codestart
- * ${value}
- * @codeend
- * [jQuery.View] integrates jQuery.tmpl templates into
- * your build process.  You can use a jQuery.tmpl like:
- * 
- * @codestart
- * $('#area').html('//path/to/template.tmpl',{ data });
- * @codeend
- * 
- * For more information on jQuery.tmpl read 
- * [http://api.jquery.com/category/plugins/templates/ it's documentation].
- */
-steal('can/util', 'can/view', function(can) {
+define(["can/util/util", "can/view/view"],
+function(can) {
 		// Override the DOM manipulation function
 	var oldManip = jQuery.fn.domManip, tmplItmAtt = "_tmplitem", htmlExpr = /^[^<]*(<[\w\W]+>)[^>]*$|\{\{\! /,
 		newTmplItems = {}, wrappedItems = {}, appendToTmplItems, topTmplItem = { key: 0, data: {} }, itemKey = 0, cloneIndex = 0, stack = [];

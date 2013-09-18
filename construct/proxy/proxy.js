@@ -1,4 +1,5 @@
-steal('can/util', 'can/construct', function(can, Construct){
+define(["can/util/util", "can/construct/construct"],
+function(can, Construct){
 var isFunction = can.isFunction,
 	isArray = can.isArray,
 	makeArray = can.makeArray,

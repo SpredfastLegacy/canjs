@@ -1,5 +1,5 @@
-//@steal-clean
-steal("can/util/string", function(can) {
+define(["can/util/string/string"],
+function(can) {
 
 	// ## construct.js
 	// `can.Construct`  
@@ -239,7 +239,7 @@ steal("can/util/string", function(can) {
 
 				//!steal-remove-start
 				if(current[shortName]){
-					steal.dev.warn("class.js There's already something called "+fullName)
+					window.console && console.warn && console.warn("class.js There's already something called "+fullName)
 				}
 				//!steal-remove-end
 				

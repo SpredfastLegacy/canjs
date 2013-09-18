@@ -1,5 +1,5 @@
-// 1.69
-steal('can/util','can/construct', function(can, Construct) {
+define(["can/util/util","can/construct/construct"],
+function(can, Construct) {
 	// ## observe.js  
 	// `can.Observe`  
 	// _Provides the observable pattern for JavaScript Objects._  

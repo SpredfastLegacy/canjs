@@ -1,4 +1,5 @@
-steal('funcunit/qunit','jquery/model/list/cookie').then(function($){
+define(["funcunit/qunit/qunit","jquery/model/list/cookie/cookie"],
+function($){
 	
 module("jquery/model/list/cookie",{
 	setup: function(){

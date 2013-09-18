@@ -1,4 +1,5 @@
-steal('can', function(can){
+define(["can/can"],
+function(can){
 	
 	var events = [],
 		transactionCount = 0,

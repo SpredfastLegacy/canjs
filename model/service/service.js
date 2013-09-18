@@ -1,4 +1,5 @@
-steal('jquery/model').then(function(){
+define(["jquery/model/model"],
+function(){
 	var convert = function(method, func){
 		
 		return typeof method == 'function' ? function(){

@@ -1,4 +1,5 @@
-steal('jquery/model/service').then(function(){
+define(["jquery/model/service/service"],
+function(){
 	
 	$.Model.service.twitter = $.Model.service({
 		url : "http://api.twitter.com/1/",

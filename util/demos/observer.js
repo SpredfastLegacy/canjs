@@ -1,6 +1,6 @@
-steal('can/observe', 
-	'can/util/json.js',
-	'can/control',
+define(["can/observe/observe", 
+	"can/util/json",
+	"can/control/control"],
 function(){
 	
 	

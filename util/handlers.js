@@ -1,4 +1,5 @@
-steal(function(){
+define([],
+function(){
 	
 	var id = 0;
 	can.addHandler = function(el, ev, handler){

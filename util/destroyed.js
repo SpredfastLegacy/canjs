@@ -1,7 +1,8 @@
 /**
  * @add can.event.special
  */
-steal('can/util').then(function() {
+define(["can/util/util"],
+function() {
 	/**
 	 * @attribute destroyed
 	 * @parent specialevents

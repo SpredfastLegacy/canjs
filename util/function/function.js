@@ -1,4 +1,5 @@
-steal("can/util", function( can ) {
+define(["can/util/util"],
+function( can ) {
 
   can.extend( can, {
 

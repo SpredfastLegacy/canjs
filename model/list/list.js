@@ -1,4 +1,5 @@
-steal('can/util', 'can/model/elements', function(can) {
+define(["can/util/util", "can/model/elements/elements"],
+function(can) {
 
 	var getArgs = function( args ) {
 		if ( args[0] && (can.isArray(args[0])) ) {

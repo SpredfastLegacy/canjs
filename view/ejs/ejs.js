@@ -1,4 +1,5 @@
-steal('can/util','can/view', 'can/util/string', 'can/observe/compute',function( can ) {
+define(["can/util/util","can/view/view", "can/util/string/string", "can/observe/compute/compute"],
+function( can ) {
 
 	// ## ejs.js
 	// `can.EJS`  

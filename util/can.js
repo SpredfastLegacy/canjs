@@ -1,4 +1,5 @@
-steal(function(){
+define([],
+function(){
 	window.can = window.can || {};
 	window.can.isDeferred = function( obj ) {
 		var isFunction = this.isFunction;

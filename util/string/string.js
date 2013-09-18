@@ -1,4 +1,5 @@
-steal('can/util',function(can) {
+define(["can/util/util"],
+function(can) {
 	// ##string.js
 	// _Miscellaneous string utility functions._  
 	

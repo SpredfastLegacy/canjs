@@ -1,4 +1,5 @@
-steal('jquery', 'can/util', 'can/control', function($, can) {
+define(["jquery/jquery", "can/util/util", "can/control/control"],
+function($, can) {
 //used to determine if a control instance is one of controllers
 //controllers can be strings or classes
 var i, 

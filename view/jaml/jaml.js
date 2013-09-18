@@ -1,4 +1,5 @@
-steal("can/view", function(can) {
+define(["can/view/view"],
+function(can) {
 	
 
 

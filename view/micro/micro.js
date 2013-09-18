@@ -1,4 +1,5 @@
-steal('can/util', 'can/view', function(can) {
+define(["can/util/util", "can/view/view"],
+function(can) {
 // Simple JavaScript Templating
 // John Resig - http://ejohn.org/ - MIT Licensed
 

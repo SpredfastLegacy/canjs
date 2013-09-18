@@ -1,4 +1,5 @@
-steal('can/util', 'can/observe/attributes', function(can) {
+define(["can/util/util", "can/observe/attributes/attributes"],
+function(can) {
 //validations object is by property.  You can have validations that
 //span properties, but this way we know which ones to run.
 //  proc should return true if there's an error or the error message

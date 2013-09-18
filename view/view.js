@@ -1,4 +1,5 @@
-steal("can/util", function( can ) {
+define(["can/util/util"],
+function( can ) {
 	// ## view.js
 	// `can.view`  
 	// _Templating abstraction._
@@ -327,7 +328,7 @@ steal("can/util", function( can ) {
 	var	checkText = function( text, url ) {
 			if ( ! text.length ) {
 				//!steal-remove-start
-				steal.dev.log("There is no template or an empty template at " + url);
+				window.console && console.log && console.log("There is no template or an empty template at " + url);
 				//!steal-remove-end
 				throw "can.view: No template or empty template:" + url;
 			}

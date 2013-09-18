@@ -1,4 +1,5 @@
-steal("./view",function( $ ) {
+define(["can/view/view"],
+function( $ ) {
 
 	if ( window.steal ) {
 		steal.type("view js", function( options, success, error ) {

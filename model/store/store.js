@@ -1,4 +1,5 @@
-steal('jquery/model/list','jquery/lang/object',function($){
+define(["jquery/model/list/list","jquery/lang/object/object"],
+function($){
 
 var same = $.Object.same;
 

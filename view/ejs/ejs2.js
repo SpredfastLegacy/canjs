@@ -1,4 +1,5 @@
-steal('jquery',function(){
+define(["jquery/jquery"],
+function(){
 	
 	EJS = function(template){
 		var split = template.split(tokens);

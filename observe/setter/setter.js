@@ -1,4 +1,5 @@
-steal('can/util', 'can/observe/attributes', function(can) {
+define(["can/util/util", "can/observe/attributes/attributes"],
+function(can) {
 
 /**
  * Like [can.camelize|camelize], but the first part is also capitalized

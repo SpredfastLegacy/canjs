@@ -1,4 +1,5 @@
-steal('can/util','can/observe', 'can/util/string/deparam', function(can) {
+define(["can/util/util","can/observe/observe", "can/util/string/deparam/deparam"],
+function(can) {
 
 	// ## route.js  
 	// `can.route`  

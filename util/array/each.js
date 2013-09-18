@@ -1,4 +1,5 @@
-steal('can/util/can.js',function (can) {
+define(["can/util/can"],
+function (can) {
 	can.each = function (elements, callback, context) {
 		var i = 0, key;
 		if (elements) {

@@ -1,4 +1,5 @@
-steal('can/util','can/util/string', function( can ){
+define(["can/util/util","can/util/string/string"],
+function( can ){
 	
 	// ## deparam.js  
 	// `can.deparam`  
